@@ -1,0 +1,168 @@
+/* MI estilo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 30px;
+    font-size: 16px;
+    color: #666;
+    margin-right: 20px;       /* ancho de margen (espacio vacio) */
+    max-width: 1230px;    /* ancho de texto */
+    margin-left: 30px;
+  }
+
+  .titulo {
+    color: #000000;
+    font-size: 30px;
+  }
+
+  .fachada {
+
+     /*<img src="" alt="Mi imagen de portada" class="imagen_1"> */
+    background-image: url('imagendepractica.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+  }  
+
+  .fachadasintitulo {
+    display: grid;
+    grid-template-columns: 300px 1fr; /* Two columns in the grid */
+    grid-gap: 0px;
+    align-items: center;
+    padding: 20px;
+
+
+  }
+  
+  h1 {
+    color: #333;
+    font-size: 24px;
+  }
+
+  h2 {
+    color: #333;
+    font-size: 24px;
+  }
+  
+  p {
+    
+    line-height: 1.5;
+    font-size: 16px;
+    margin-right: 20px;
+    margin-left: 30px;
+    width: 800px;
+    max-width: 100%;
+    
+  }
+  
+
+
+  .imagen_2 {     /* fotodocumento */
+    width: 150px; /* ancho */
+    height: auto; /* mantiene radio */
+    margin-left: 60px;
+
+  }
+  
+  .imagen_1 {
+    max-width: 100%; /* ancho */
+    height: auto; /* mantiene radio */
+  }
+  
+  .imagen_3 {
+    width: 1200px; /* ancho */
+    height: auto; /* mantiene radio */
+  }
+
+
+  .titulopartido{
+    overflow-wrap: break-word;
+  }
+  
+
+
+  table {
+    border-collapse: collapse;
+   }
+
+   
+   td{
+    height: 20px;
+    width: 200px;
+    position: relative;
+    background-color: #ddd;
+    border: 1px solid #aaa;
+   }
+
+
+    td:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: rgb(0, 255, 42);
+    transition: width 0.75s ease;
+  }
+  
+  /* Level 1 */
+  td.level-1:before {
+    width: 25%;
+  }
+  
+  /* Level 2 */
+  td.level-2:before {
+    width: 50%;
+  }
+  
+  /* Level 3 */
+  td.level-3:before {
+    width: 75%;
+  }
+  
+  /* Level 4 */
+  td.level-4:before {
+    width: 100%;
+  }
+   
+
+
+   .columnadetexto {
+    display: grid;
+    grid-template-columns: 300px 1fr; /* Two equal-width columns */
+    grid-gap: 20px; /* Gap between columns */
+  }
+  
+  .columnaizquierda {
+    
+  }
+  
+  .columnaderecha {
+    
+  }
+
+  .button {
+    display: inline-block;
+    background-image: url('buttonimage.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 10px;
+    font-weight: bold;
+    border-radius: 4px;
+  }
+  
+  .button:hover {
+    opacity: 0.8;
+  }
+  
+  
+
+
+
+
+
+  /* Add more CSS styles as needed */
+  
